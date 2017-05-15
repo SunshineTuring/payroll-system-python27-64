@@ -1,0 +1,265 @@
+2017-05-13 16:23:03 operateEmployee.py[line:24] INFO - 添加用户：a25，李敏，女，123341
+2017-05-13 16:26:44 operateEmployee.py[line:24] INFO - 添加用户：cheng212，成龙，男，222
+2017-05-13 16:30:54 operateEmployee.py[line:24] INFO - 添加用户：ss，dd，sd，sd
+2017-05-13 16:32:51 operateEmployee.py[line:24] INFO - 添加用户：sd，222，asd，www4
+2017-05-13 16:33:52 operateEmployee.py[line:24] INFO - 添加用户：l221，刘德华，男，222
+2017-05-13 18:31:29 operateEmployee.py[line:41] INFO - 删除用户：l
+2017-05-13 18:31:29 operateEmployee.py[line:48] ERROR - 删除失败，不存在该用户
+2017-05-13 18:35:22 operateEmployee.py[line:41] INFO - 删除用户：s
+2017-05-13 18:35:22 operateEmployee.py[line:48] ERROR - 删除失败，不存在该用户
+2017-05-13 18:35:39 operateEmployee.py[line:41] INFO - 删除用户：l
+2017-05-13 18:35:39 operateEmployee.py[line:48] ERROR - 删除失败，不存在该用户
+2017-05-13 18:36:50 operateEmployee.py[line:41] INFO - 删除用户：l
+2017-05-13 18:37:11 operateEmployee.py[line:48] ERROR - 删除失败，不存在该用户
+2017-05-13 18:41:31 operateEmployee.py[line:41] INFO - 删除用户：cheng212
+2017-05-13 18:42:44 operateEmployee.py[line:41] INFO - 删除用户：l221
+2017-05-13 18:42:53 operateEmployee.py[line:41] INFO - 删除用户：4
+2017-05-13 18:43:03 operateEmployee.py[line:41] INFO - 删除用户：sd
+2017-05-13 18:43:06 operateEmployee.py[line:41] INFO - 删除用户：ss
+2017-05-13 18:48:54 operateEmployee.py[line:24] INFO - 添加用户：cl01，成龙，男，123
+2017-05-13 18:57:38 operateEmployee.py[line:24] INFO - 添加用户：，，，
+2017-05-13 18:58:17 operateEmployee.py[line:41] INFO - 删除用户：
+2017-05-13 18:59:58 operateEmployee.py[line:24] INFO - 添加用户：，，，
+2017-05-13 19:00:04 operateEmployee.py[line:41] INFO - 删除用户：
+2017-05-13 19:07:50 operateEmployee.py[line:24] INFO - 添加用户：1，李敏，，
+2017-05-13 19:07:50 operateEmployee.py[line:33] ERROR - 添加失败
+Traceback (most recent call last):
+  File "G:\pythonpro\operateEmployee.py", line 29, in emAdd
+    , (emID, emName, emSex, emPhone))
+IntegrityError: column emID is not unique
+2017-05-13 19:08:05 operateEmployee.py[line:24] INFO - 添加用户：2，李雷，，
+2017-05-13 19:08:05 operateEmployee.py[line:33] ERROR - 添加失败
+Traceback (most recent call last):
+  File "G:\pythonpro\operateEmployee.py", line 29, in emAdd
+    , (emID, emName, emSex, emPhone))
+IntegrityError: column emID is not unique
+2017-05-13 19:08:19 operateEmployee.py[line:24] INFO - 添加用户：1，李雷，，
+2017-05-13 19:08:19 operateEmployee.py[line:33] ERROR - 添加失败
+Traceback (most recent call last):
+  File "G:\pythonpro\operateEmployee.py", line 29, in emAdd
+    , (emID, emName, emSex, emPhone))
+IntegrityError: column emID is not unique
+2017-05-13 19:08:46 operateEmployee.py[line:24] INFO - 添加用户：3，李雷，，
+2017-05-13 19:30:18 operateEmployee.py[line:57] INFO - 修改用户：2
+2017-05-13 19:30:32 operateEmployee.py[line:57] INFO - 修改用户：5
+2017-05-13 19:30:32 operateEmployee.py[line:66] ERROR - 修改失败
+Traceback (most recent call last):
+  File "G:\pythonpro\operateEmployee.py", line 62, in emModify
+    "where emID='%s'" %(emID2,emName,emSex,emPhone,emID1))
+IntegrityError: column emID is not unique
+2017-05-13 19:30:46 operateEmployee.py[line:57] INFO - 修改用户：a25
+2017-05-13 19:31:00 operateEmployee.py[line:57] INFO - 修改用户：cl01
+2017-05-13 19:31:20 operateEmployee.py[line:41] INFO - 删除用户：3
+2017-05-13 19:31:52 operateEmployee.py[line:57] INFO - 修改用户：5
+2017-05-13 19:43:21 operateEmployee.py[line:57] INFO - 修改用户：5
+2017-05-13 19:43:37 operateEmployee.py[line:24] INFO - 添加用户：6，李强，，
+2017-05-13 19:43:41 operateEmployee.py[line:41] INFO - 删除用户：4
+2017-05-13 20:05:45 operateWorkType.py[line:23] INFO - 添加工种：2，压焊，0.2500
+2017-05-13 20:07:11 operateWorkType.py[line:40] INFO - 删除工种：2
+2017-05-13 20:08:37 operateWorkType.py[line:40] INFO - 删除工种：4
+2017-05-13 20:09:03 operateWorkType.py[line:23] INFO - 添加工种：2，压焊，0.2500
+2017-05-13 20:09:08 operateWorkType.py[line:40] INFO - 删除工种：1
+2017-05-13 20:11:14 operateWorkType.py[line:56] INFO - 修改工种：5
+2017-05-13 20:12:12 operateWorkType.py[line:23] INFO - 添加工种：3，碰焊，0.3200
+2017-05-13 20:12:17 operateWorkType.py[line:40] INFO - 删除工种：1
+2017-05-13 20:12:21 operateWorkType.py[line:56] INFO - 修改工种：2
+2017-05-13 20:12:40 operateWorkType.py[line:56] INFO - 修改工种：1
+2017-05-13 20:19:49 operateEmployee.py[line:57] INFO - 修改用户：5
+2017-05-13 21:48:02 operateWorkInfo.py[line:27] INFO - 添加工作记录：1，李雷，1，亚焊，222，0.2500，2017-05-13
+2017-05-13 21:48:02 operateWorkInfo.py[line:36] ERROR - 添加失败
+Traceback (most recent call last):
+  File "operateWorkInfo.py", line 32, in wiAdd
+    , (emID,emName,workID,workName,number,unitPrice,date))
+OperationalError: table workInfo has 6 columns but 7 values were supplied
+2017-05-13 21:48:02 operateWorkInfo.py[line:27] INFO - 添加工作记录：1，李雷，1，亚焊，234，0.3400，2017-05-13
+2017-05-13 21:48:02 operateWorkInfo.py[line:36] ERROR - 添加失败
+Traceback (most recent call last):
+  File "operateWorkInfo.py", line 32, in wiAdd
+    , (emID,emName,workID,workName,number,unitPrice,date))
+OperationalError: table workInfo has 6 columns but 7 values were supplied
+2017-05-13 21:48:02 operateWorkInfo.py[line:62] INFO - 修改工作记录：1,李雷,1,亚焊,234,2017-05-13
+2017-05-13 21:48:02 operateWorkInfo.py[line:72] ERROR - 修改失败
+Traceback (most recent call last):
+  File "operateWorkInfo.py", line 68, in wiModify
+    %(emID1,emName1,workID1,workName1,number1,unitPrice1,date1,emID,emName,workID,workName,number,unitPrice,date))
+OperationalError: near "date": syntax error
+2017-05-13 21:49:55 operateWorkInfo.py[line:27] INFO - 添加工作记录：1，李雷，1，亚焊，222，0.2500，2017-05-13
+2017-05-13 21:49:55 operateWorkInfo.py[line:27] INFO - 添加工作记录：1，李雷，1，亚焊，234，0.3400，2017-05-13
+2017-05-13 21:49:56 operateWorkInfo.py[line:62] INFO - 修改工作记录：1,李雷,1,亚焊,234,2017-05-13
+2017-05-13 21:49:56 operateWorkInfo.py[line:72] ERROR - 修改失败
+Traceback (most recent call last):
+  File "operateWorkInfo.py", line 68, in wiModify
+    %(emID1,emName1,workID1,workName1,number1,unitPrice1,date1,emID,emName,workID,workName,number,unitPrice,date))
+OperationalError: near "date": syntax error
+2017-05-14 13:40:14 operateWorkInfo.py[line:28] INFO - 添加工作记录：1，李雷，1，亚焊，222，0.2500，55.5000，2017-05-14
+2017-05-14 13:40:14 operateWorkInfo.py[line:28] INFO - 添加工作记录：1，李雷，1，亚焊，234，0.3400，79.5600，2017-05-14
+2017-05-14 13:40:14 operateWorkInfo.py[line:66] INFO - 修改工作记录：1,李雷,1,亚焊,234,0.3400,55.5000,2017-05-14
+2017-05-14 14:35:42 operateEmployee.py[line:24] INFO - 添加用户：1，成龙，男，2
+2017-05-14 14:35:54 operateEmployee.py[line:24] INFO - 添加用户：2，刘德华，男，3
+2017-05-14 14:41:04 operateWorkType.py[line:23] INFO - 添加工种：1，压焊，0.0021
+2017-05-14 14:41:18 operateWorkType.py[line:23] INFO - 添加工种：2，碰焊，0.0012
+2017-05-14 14:52:38 operateEmployee.py[line:24] INFO - 添加用户：1，2，，
+2017-05-14 14:52:38 operateEmployee.py[line:33] ERROR - 添加失败
+Traceback (most recent call last):
+  File "G:\pythonpro\operateEmployee.py", line 29, in emAdd
+    , (emID, emName, emSex, emPhone))
+IntegrityError: column emID is not unique
+2017-05-14 14:56:43 operateEmployee.py[line:57] INFO - 修改用户：2
+2017-05-14 14:56:43 operateEmployee.py[line:66] ERROR - 修改失败
+Traceback (most recent call last):
+  File "G:\pythonpro\operateEmployee.py", line 62, in emModify
+    "where emID='%s'" %(emID2,emName,emSex,emPhone,emID1))
+IntegrityError: column emID is not unique
+2017-05-14 14:56:55 operateEmployee.py[line:57] INFO - 修改用户：1
+2017-05-14 14:59:21 operateWorkType.py[line:23] INFO - 添加工种：1，2，2.0000
+2017-05-14 14:59:21 operateWorkType.py[line:32] ERROR - 添加失败
+Traceback (most recent call last):
+  File "G:\pythonpro\operateWorkType.py", line 28, in wtAdd
+    , (workID,workName,unitPrice))
+IntegrityError: column workID is not unique
+2017-05-14 14:59:31 operateWorkType.py[line:56] INFO - 修改工种：1
+2017-05-14 14:59:31 operateWorkType.py[line:65] ERROR - 修改失败
+Traceback (most recent call last):
+  File "G:\pythonpro\operateWorkType.py", line 61, in wtModify
+    "where workID='%s'" % (workID2, workName, unitPrice, workID1))
+IntegrityError: column workID is not unique
+2017-05-14 15:31:35 operateWorkInfo.py[line:28] INFO - 添加工作记录：1，成龙，1，压焊，20，0.0021，0.0420，2017-05-14
+2017-05-14 15:42:13 operateWorkInfo.py[line:45] INFO - 删除工作记录：1，李雷，1，亚焊，222，0.2500，55.5000，2017-05-14
+2017-05-14 16:05:57 operateWorkInfo.py[line:28] INFO - 添加工作记录：1，成龙，1，压焊，200，0.0021，0.4200，2017-05-14
+2017-05-14 16:06:33 operateWorkInfo.py[line:45] INFO - 删除工作记录：1，成龙，1，压焊，200，0.0021，0.4200，2017-05-14
+2017-05-14 16:09:10 operateWorkInfo.py[line:45] INFO - 删除工作记录：1，李雷，1，亚焊，234，0.3400，79.5600，2017-05-14
+2017-05-14 16:09:22 operateWorkInfo.py[line:28] INFO - 添加工作记录：2，刘德华，1，压焊，600，0.0021，1.2600，2017-05-14
+2017-05-14 16:42:35 operateWorkInfo.py[line:66] INFO - 修改工作记录：1,成龙,1,压焊,20,0.0021,0.0420,2017-05-14
+2017-05-14 16:42:41 operateWorkInfo.py[line:66] INFO - 修改工作记录：1,成龙,1,压焊,20,0.0021,0.0420,2017-05-14
+2017-05-14 16:43:28 operateWorkInfo.py[line:66] INFO - 修改工作记录：1,成龙,1,压焊,20,0.0021,0.0420,2017-05-14
+2017-05-14 16:43:52 operateWorkInfo.py[line:66] INFO - 修改工作记录：1,成龙,1,压焊,20,0.0021,0.0420,2017-05-14
+2017-05-14 16:44:05 operateWorkInfo.py[line:66] INFO - 修改工作记录：1,成龙,1,压焊,20,0.0021,0.0420,2017-05-14
+2017-05-14 16:44:54 operateWorkInfo.py[line:66] INFO - 修改工作记录：1,成龙,1,压焊,20,0.0021,0.0420,2017-05-14
+2017-05-14 16:46:54 operateWorkInfo.py[line:66] INFO - 修改工作记录：1,成龙,1,压焊,20,0.0021,0.0420,2017-05-14
+2017-05-14 16:48:56 operateWorkInfo.py[line:66] INFO - 修改工作记录：1,成龙,1,压焊,20,0.0021,0.0420,2017-05-14
+2017-05-14 16:51:05 operateWorkInfo.py[line:66] INFO - 修改工作记录：1,成龙,1,压焊,20,0.0021,0.0420,2017-05-14
+2017-05-14 16:51:33 operateWorkInfo.py[line:66] INFO - 修改工作记录：1,成龙,1,压焊,20,0.0021,0.0420,2017-05-14
+2017-05-14 16:54:14 operateWorkInfo.py[line:66] INFO - 修改工作记录：1,成龙,1,亚焊,20,0.0021,0.0420,2017-05-14
+2017-05-14 16:54:34 operateWorkInfo.py[line:66] INFO - 修改工作记录：1,成龙1,1,亚焊,20,0.0021,0.0420,2017-05-14
+2017-05-14 16:55:34 operateWorkType.py[line:56] INFO - 修改工种：1
+2017-05-14 16:59:13 operateWorkInfo.py[line:66] INFO - 修改工作记录：1,成龙,1,压焊,20,0.0021,0.0420,2017-05-14
+2017-05-14 16:59:13 operateWorkInfo.py[line:73] ERROR - 修改失败
+2017-05-14 16:59:56 operateWorkInfo.py[line:66] INFO - 修改工作记录：1,成龙,1,压焊,20,0.0021,0.0420,2017-05-14
+2017-05-14 17:03:07 operateWorkInfo.py[line:66] INFO - 修改工作记录：1,成龙,1,压焊,20,0.0021,0.0420,2017-05-14
+2017-05-14 17:03:07 operateWorkInfo.py[line:73] ERROR - 修改失败
+2017-05-14 17:05:25 operateWorkInfo.py[line:66] INFO - 修改工作记录：1,成龙,1,亚焊,20,0.0021,0.0420,2017-05-14
+2017-05-14 17:05:25 operateWorkInfo.py[line:73] ERROR - 修改失败
+2017-05-14 17:06:13 operateWorkInfo.py[line:66] INFO - 修改工作记录：1,成龙,1,亚焊,20,0.0021,0.0420,2017-05-14
+2017-05-14 17:06:13 operateWorkInfo.py[line:73] ERROR - 修改失败
+2017-05-14 17:10:21 operateWorkInfo.py[line:45] INFO - 删除工作记录：1，成龙，1，压焊，20，0.0021，0.0420，2017-05-14
+2017-05-14 17:10:21 operateWorkInfo.py[line:54] ERROR - 删除失败，不存在该工作记录
+2017-05-14 17:15:43 operateWorkInfo.py[line:28] INFO - 添加工作记录：1，成龙，2，碰焊，20，0.0421，0.8420，2017-05-14
+2017-05-14 17:15:58 operateWorkInfo.py[line:28] INFO - 添加工作记录：2，刘德华，3，压焊，355，0.0021，0.7455，2017-05-14
+2017-05-14 17:16:06 operateWorkInfo.py[line:66] INFO - 修改工作记录：1,成龙,2,碰焊,20,0.0421,0.8420,2017-05-14
+2017-05-14 17:16:18 operateWorkInfo.py[line:66] INFO - 修改工作记录：2,刘德华,3,压焊,355,0.0021,0.7455,2017-05-14
+2017-05-14 17:16:18 operateWorkInfo.py[line:73] ERROR - 修改失败
+2017-05-14 17:16:31 operateWorkInfo.py[line:66] INFO - 修改工作记录：2,刘德华,3,压焊,355,0.0021,0.7455,2017-05-14
+2017-05-14 17:16:31 operateWorkInfo.py[line:73] ERROR - 修改失败
+2017-05-14 17:16:45 operateWorkInfo.py[line:66] INFO - 修改工作记录：2,刘德华,3,压焊,355,0.0021,0.7455,2017-05-14
+2017-05-14 17:16:45 operateWorkInfo.py[line:73] ERROR - 修改失败
+2017-05-14 17:17:05 operateWorkInfo.py[line:66] INFO - 修改工作记录：1,成龙,1,亚焊,20,0.0021,0.0420,2017-05-14
+2017-05-14 17:17:05 operateWorkInfo.py[line:73] ERROR - 修改失败
+2017-05-14 17:21:11 operateWorkInfo.py[line:28] INFO - 添加工作记录：2，刘德华，3，压焊，230，0.0021，0.4830，2017-05-14
+2017-05-14 17:21:29 operateWorkInfo.py[line:28] INFO - 添加工作记录：1，成龙，2，碰焊，355，0.0012，0.4260，2017-05-14
+2017-05-14 17:21:35 operateWorkInfo.py[line:66] INFO - 修改工作记录：2,刘德华,3,压焊,230,0.0021,0.4830,2017-05-14
+2017-05-14 17:22:23 operateWorkInfo.py[line:45] INFO - 删除工作记录：2，刘德华，3，压焊，2300，0.0021，4.8300，2017-05-14
+2017-05-14 17:25:28 operateWorkInfo.py[line:28] INFO - 添加工作记录：2，刘德华，2，碰焊，2110，0.0012，2.5320，2017-05-14
+2017-05-14 17:40:20 operateWorkInfo.py[line:28] INFO - 添加工作记录：2，刘德华，2，碰焊，555，0.0012，0.6660，2017-05-13
+2017-05-14 21:15:13 operateWorkInfo.py[line:66] INFO - 修改工作记录：2,刘德华,2,碰焊,555,0.0012,0.6660,2017-05-13
+2017-05-14 21:15:13 operateWorkInfo.py[line:73] ERROR - 修改失败
+2017-05-14 21:23:58 operateWorkInfo.py[line:28] INFO - 添加工作记录：1，成龙，2，碰焊，200，0.0012，0.2460，2017-05-14
+2017-05-14 21:24:13 operateWorkInfo.py[line:28] INFO - 添加工作记录：1，成龙，3，压焊，350，0.0021，0.7350，2017-05-14
+2017-05-14 21:24:27 operateWorkInfo.py[line:28] INFO - 添加工作记录：2，刘德华，2，碰焊，365，0.0012，0.4490，2017-05-14
+2017-05-14 21:24:43 operateWorkInfo.py[line:28] INFO - 添加工作记录：1，成龙，2，碰焊，368，0.0012，0.4526，2017-05-13
+2017-05-15 09:53:24 operateEmployee.py[line:12] INFO - G:/pythonpro
+2017-05-15 09:53:24 operateEmployee.py[line:12] INFO - G:/pythonpro
+2017-05-15 10:28:47 operateEmployee.py[line:15] INFO - G:/pythonpro
+2017-05-15 10:28:47 operateEmployee.py[line:15] INFO - G:/pythonpro
+2017-05-15 10:30:11 operateEmployee.py[line:15] INFO - G:/pythonpro
+2017-05-15 10:30:11 operateEmployee.py[line:15] INFO - G:/pythonpro
+2017-05-15 10:34:55 operateEmployee.py[line:15] INFO - G:\pythonpro
+2017-05-15 10:34:55 operateEmployee.py[line:15] INFO - G:\pythonpro
+2017-05-15 10:37:56 operateEmployee.py[line:15] INFO - G:\pythonpro
+2017-05-15 10:37:56 operateEmployee.py[line:15] INFO - G:\pythonpro
+2017-05-15 10:39:22 operateEmployee.py[line:15] INFO - G:\pythonpro
+2017-05-15 10:39:22 operateEmployee.py[line:15] INFO - G:\pythonpro
+2017-05-15 10:40:39 operateEmployee.py[line:15] INFO - G:\pythonpro
+2017-05-15 10:40:39 operateEmployee.py[line:15] INFO - G:\pythonpro
+2017-05-15 10:45:04 operateEmployee.py[line:15] INFO - G:\pythonpro
+2017-05-15 10:45:04 operateEmployee.py[line:15] INFO - G:\pythonpro
+2017-05-15 10:45:18 operateEmployee.py[line:28] INFO - 添加用户：cl1，成龙，男，187
+2017-05-15 10:46:15 operateEmployee.py[line:15] INFO - G:/pythonpro
+2017-05-15 10:46:15 operateEmployee.py[line:15] INFO - G:/pythonpro
+2017-05-15 10:49:01 operateEmployee.py[line:15] INFO - G:\pythonpro
+2017-05-15 10:49:01 operateEmployee.py[line:15] INFO - G:\pythonpro
+2017-05-15 10:49:13 operateEmployee.py[line:15] INFO - G:\pythonpro
+2017-05-15 10:49:13 operateEmployee.py[line:15] INFO - G:\pythonpro
+2017-05-15 10:49:25 operateEmployee.py[line:45] INFO - 删除用户：cl1
+2017-05-15 10:50:15 operateEmployee.py[line:15] INFO - G:/pythonpro
+2017-05-15 10:50:15 operateEmployee.py[line:15] INFO - G:/pythonpro
+2017-05-15 10:50:59 operateEmployee.py[line:15] INFO - G:\pythonpro
+2017-05-15 10:50:59 operateEmployee.py[line:15] INFO - G:\pythonpro
+2017-05-15 10:51:44 operateEmployee.py[line:15] INFO - G:\pythonpro
+2017-05-15 10:51:44 operateEmployee.py[line:15] INFO - G:\pythonpro
+2017-05-15 10:53:35 operateEmployee.py[line:15] INFO - G:\pythonpro
+2017-05-15 10:53:35 operateEmployee.py[line:15] INFO - G:\pythonpro
+2017-05-15 10:55:07 operateEmployee.py[line:15] INFO - G:\pythonpro
+2017-05-15 10:55:07 operateEmployee.py[line:15] INFO - G:\pythonpro
+2017-05-15 10:56:07 operateEmployee.py[line:15] INFO - G:\pythonpro
+2017-05-15 10:56:07 operateEmployee.py[line:15] INFO - G:\pythonpro
+2017-05-15 10:56:40 operateEmployee.py[line:28] INFO - 添加用户：ch1，成龙，男，187
+2017-05-15 10:56:53 operateEmployee.py[line:28] INFO - 添加用户：ldh，刘德华，男，201
+2017-05-15 10:57:01 operateEmployee.py[line:61] INFO - 修改用户：ch1
+2017-05-15 10:57:05 operateEmployee.py[line:45] INFO - 删除用户：ch1
+2017-05-15 10:57:19 operateWorkType.py[line:26] INFO - 添加工种：ph1，碰焊，0.2150
+2017-05-15 10:57:33 operateWorkType.py[line:26] INFO - 添加工种：yh1，压焊，0.3540
+2017-05-15 10:57:40 operateWorkType.py[line:59] INFO - 修改工种：ph1
+2017-05-15 10:57:44 operateWorkType.py[line:43] INFO - 删除工种：ph10
+2017-05-15 10:57:58 operateWorkInfo.py[line:31] INFO - 添加工作记录：ldh，刘德华，yh1，压焊，200，0.3540，70.8000，2017-05-15
+2017-05-15 10:58:10 operateWorkInfo.py[line:31] INFO - 添加工作记录：ldh，刘德华，yh1，压焊，350，0.3540，123.9000，2017-05-14
+2017-05-15 10:58:26 operateEmployee.py[line:28] INFO - 添加用户：cl1，成龙，男，520
+2017-05-15 10:58:42 operateWorkInfo.py[line:31] INFO - 添加工作记录：cl1，成龙，yh1，压焊，351，0.3540，124.2540，2017-05-15
+2017-05-15 10:58:49 operateWorkInfo.py[line:48] INFO - 删除工作记录：ldh，刘德华，yh1，压焊，200，0.3540，70.8000，2017-05-15
+2017-05-15 10:58:57 operateWorkInfo.py[line:69] INFO - 修改工作记录：ldh,刘德华,yh1,压焊,350,0.3540,123.9000,2017-05-14
+2017-05-15 11:01:29 operateEmployee.py[line:15] INFO - G:\pythonpro
+2017-05-15 11:01:29 operateEmployee.py[line:15] INFO - G:\pythonpro
+2017-05-15 11:03:18 operateEmployee.py[line:15] INFO - G:\pythonpro
+2017-05-15 11:03:18 operateEmployee.py[line:15] INFO - G:\pythonpro
+2017-05-15 11:05:55 operateWorkInfo.py[line:48] INFO - 删除工作记录：cl1，成龙，yh1，压焊，351，0.3540，124.2540，2017-05-15
+2017-05-15 11:05:57 operateWorkInfo.py[line:48] INFO - 删除工作记录：ldh，刘德华，yh1，压焊，350，0.3540，123.9000，2017-05-13
+2017-05-15 11:06:18 operateWorkInfo.py[line:31] INFO - 添加工作记录：cl1，成龙，yh1，压焊，200，0.3540，70.8000，2017-05-15
+2017-05-15 11:10:06 operateEmployee.py[line:15] INFO - G:\pythonpro
+2017-05-15 11:10:06 operateEmployee.py[line:15] INFO - G:\pythonpro
+2017-05-15 11:10:19 operateEmployee.py[line:15] INFO - G:\pythonpro
+2017-05-15 11:10:19 operateEmployee.py[line:15] INFO - G:\pythonpro
+2017-05-15 11:11:09 operateEmployee.py[line:15] INFO - G:\pythonpro
+2017-05-15 11:11:09 operateEmployee.py[line:15] INFO - G:\pythonpro
+2017-05-15 11:11:20 operateEmployee.py[line:15] INFO - G:\pythonpro
+2017-05-15 11:11:20 operateEmployee.py[line:15] INFO - G:\pythonpro
+2017-05-15 11:11:37 operateEmployee.py[line:15] INFO - G:\pythonpro
+2017-05-15 11:11:37 operateEmployee.py[line:15] INFO - G:\pythonpro
+2017-05-15 11:12:03 operateEmployee.py[line:15] INFO - G:\pythonpro
+2017-05-15 11:12:03 operateEmployee.py[line:15] INFO - G:\pythonpro
+2017-05-15 11:12:13 operateEmployee.py[line:15] INFO - G:\pythonpro
+2017-05-15 11:12:13 operateEmployee.py[line:15] INFO - G:\pythonpro
+2017-05-15 11:14:17 operateEmployee.py[line:15] INFO - G:\pythonpro
+2017-05-15 11:14:17 operateEmployee.py[line:15] INFO - G:\pythonpro
+2017-05-15 11:14:32 operateEmployee.py[line:15] INFO - G:\pythonpro
+2017-05-15 11:14:32 operateEmployee.py[line:15] INFO - G:\pythonpro
+2017-05-15 11:14:57 operateEmployee.py[line:15] INFO - G:\pythonpro
+2017-05-15 11:14:57 operateEmployee.py[line:15] INFO - G:\pythonpro
+2017-05-15 11:15:21 operateEmployee.py[line:15] INFO - G:\pythonpro
+2017-05-15 11:15:21 operateEmployee.py[line:15] INFO - G:\pythonpro
+2017-05-15 11:15:34 operateEmployee.py[line:15] INFO - G:\pythonpro
+2017-05-15 11:15:34 operateEmployee.py[line:15] INFO - G:\pythonpro
+2017-05-15 11:15:50 operateEmployee.py[line:15] INFO - G:\pythonpro
+2017-05-15 11:15:50 operateEmployee.py[line:15] INFO - G:\pythonpro
+2017-05-15 11:16:04 operateEmployee.py[line:15] INFO - G:\pythonpro
+2017-05-15 11:16:04 operateEmployee.py[line:15] INFO - G:\pythonpro
+2017-05-15 11:16:13 operateEmployee.py[line:15] INFO - G:\pythonpro
+2017-05-15 11:16:13 operateEmployee.py[line:15] INFO - G:\pythonpro
