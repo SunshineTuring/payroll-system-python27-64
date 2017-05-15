@@ -1,1 +1,2 @@
-工资管理系统，python2.7+2024
+锟斤拷锟绞癸拷锟斤拷系统锟斤拷python2.7+win764+wxpython+py2exe
+
