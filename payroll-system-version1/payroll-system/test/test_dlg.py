@@ -33,7 +33,7 @@ class Mywin(wx.Frame):
 
     def OnClick(self, e):
 
-        dlg = wx.TextEntryDialog(self, 'Enter Your Name', 'Text Entry Dialog')
+        dlg = wx.MessageDialog(self, 'Enter Your Name', 'Text Entry Dialog')
 
         if dlg.ShowModal() == wx.ID_OK:
             self.text.SetValue("Name entered:" + dlg.GetValue())
